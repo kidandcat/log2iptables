@@ -7,3 +7,9 @@ wget -O - https://cdn.rawgit.com/kidandcat/log2iptables/ef7492f55c5f2217039f8b08
 
 
 #### http://ip-blacklist.info/ip
+
+
+### Contact
+
+Jairo Caro-Accino Viciana
+kidandcat@gmail.com
