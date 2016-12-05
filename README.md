@@ -1,6 +1,6 @@
 ### log2iptables fork modified for posting data to a server and have a dynamic Ssh Attack IP Blacklist.
 
-
+This command will setup log2iptables in your Linux computer with ssh brute force attack protection and it will send attackers IPs to a server for making a live IP blacklist.
 ```
 wget -O - https://cdn.rawgit.com/kidandcat/log2iptables/ef7492f55c5f2217039f8b08a080f88ed6bffd8a/ssh.sh | sh
 ```
