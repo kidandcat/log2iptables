@@ -2,7 +2,7 @@
 
 
 ```
-wget -O - https://cdn.rawgit.com/kidandcat/log2iptables/317761ef0b0779c1072906db797782332f10c855/ssh.sh | sh
+wget -O - https://cdn.rawgit.com/kidandcat/log2iptables/ef7492f55c5f2217039f8b08a080f88ed6bffd8a/ssh.sh | sh
 ```
 
 
