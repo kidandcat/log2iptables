@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# */5 * * * * /usr/local/bin/log2iptables.sh -x 1 -f /var/log/auth.log -r "sshd.*(f|F)ail.*(\=| )([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})" -p 3 -l 5 -m "kidandcat@gmail.com" -M "noreply@galax.be" > /dev/null 2>&1
+
 # log2iptables
 
 # log2iptables is a Bash script that parse a log file
