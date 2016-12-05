@@ -242,7 +242,7 @@ while read line; do
 			iparrhash["${BASH_REMATCH[$REGEXPIPPOS]}"]=`expr ${iparrhash[${BASH_REMATCH[$REGEXPIPPOS]}]} + 1`;
 		fi
 	fi
-done <$LOGFILE
+done < <(tail -n 1000 $LOGFILE)
 
 if [ ${#iparrhash[@]} -eq 0 ]; then
 	echo -e "Nothing to do here, exit.\n";
