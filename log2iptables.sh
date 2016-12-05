@@ -263,9 +263,9 @@ for s in "${!iparrhash[@]}"; do
 				${biniptables} -${IPTABLESINSERT} ${IPTABLESCHAIN} -s ${s} -j ${IPTABLESACTION}
 			fi
 			echo -e "   \`-- [${COL3}Add ${COL0}] Add IP $s to iptables (-j ${IPTABLESACTION})"
-			addedip["${s}"]=1;
-			somethinghappens=1;
 		fi
+		addedip["${s}"]=1;
+		somethinghappens=1;
 	fi
 done
 
